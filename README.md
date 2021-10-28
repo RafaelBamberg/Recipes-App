@@ -2,7 +2,7 @@
 ## Sobre o projeto
 
 Projeto feito em parceria com colegas da Tribo 13 - B
-* Feito utilizando metodologias ageis e Trello
+* Feito utilizando metodologias ágeis e Trello
 
 
 
@@ -16,7 +16,7 @@ Projeto feito em parceria com colegas da Tribo 13 - B
 
 <!-- Contato -->
 ## Contato
-Nome - Rafael Bamberg
+Nome - Rafael Bamberg <br>
 Email - raafaelbamberg@gmail.com
 
 <!-- Github dos participantes -->
