@@ -4,7 +4,7 @@
 Projeto feito em parceria com colegas da Tribo 13 - B
 * Feito utilizando metodologias ageis e Trello
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
@@ -14,19 +14,13 @@ Projeto feito em parceria com colegas da Tribo 13 - B
 * [Redux](https://reactjs.org/)
 * [Context API / Hooks](https://reactjs.org/)
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 <!-- Contato -->
 ## Contato
-
-Rafael Bamberg - raafaelbamberg@gmail.com
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+Nome - Rafael Bamberg
+Email - raafaelbamberg@gmail.com
 
 <!-- Github dos participantes -->
+## Github dos participantes
 * [RafaelBamberg](https://github.com/RafaelBamberg)
 * [Vitor-Hugo-Dev](https://github.com/Vitor-Hugo-Dev)
 * [victor160997](https://github.com/victor160997)
