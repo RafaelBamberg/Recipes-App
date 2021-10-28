@@ -31,4 +31,8 @@ Email - raafaelbamberg@gmail.com
 * [guihtryb](https://github.com/guihtryb)
 * [k4nl](https://github.com/k4nl)
 
+
+## Link do Pull Request
+[Recipes App](https://github.com/tryber/sd-013-b-project-recipes-app/tree/main-group-18)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
