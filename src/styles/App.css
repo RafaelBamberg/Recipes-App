@@ -10,7 +10,7 @@
   --text-color-light: hsl(var(--hue), 4%, 55%);
 
   /*Green gradient*/
-  --body-color: linear-gradient(90deg, hsl(209, 78%, 57%) 0%, hsl(199, 83%, 30%) 100%);
+  --body-color: linear-gradient(90deg, hsl(209, 53%, 50%) 0%, hsl(199, 83%, 30%) 100%);
   --container-color: linear-gradient(136deg, hsl(219, 34%, 51%) 0%, hsl(212, 69%, 45%) 100%);
   
   /*Red gradient*/
@@ -71,15 +71,21 @@
 
 html{
   scroll-behavior: smooth;
+  text-align: center;
 }
 
 body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
+  text-align: center;
   font-size: var(--normal-font-size);
   background: var(--body-color);
   color: var(--text-color);
   text-align: center;
+}
+
+div {
+  margin: 0;
 }
 
 .meals > .logo {
