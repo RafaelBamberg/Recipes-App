@@ -1,10 +1,12 @@
 .divRecipes {
-    gap: 1.5rem;
+    background: var(--body-grap);
+    gap: 1rem;
     padding-top: 3rem;
+    padding-bottom: 3rem;
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 30% 30% 30%;
     justify-content: center;
-    padding-left: 200px;
+    padding-left: 275px;
 }
 
 .recipes {
@@ -12,8 +14,6 @@
     border-radius: 3rem;
     width: 46%;
     padding: 0.5rem 0 1rem 0;
-    align-items: center;
-    justify-content: center;
 }
 
 .img {
