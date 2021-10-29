@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './InputCard.css'
 
 function InputCard({ labelText, id, name, type, onChange, testId }) {
   return (
-    <label htmlFor={ id }>
+    <label className="inputCard " htmlFor={ id }>
       { labelText }
       <input
         id={ id }
