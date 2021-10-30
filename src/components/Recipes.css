@@ -6,24 +6,26 @@
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
-    padding-left: 275px;
+    padding-left: 340px;
 }
 
 .recipes {
     background: var(--container-color);
     border-radius: 3rem;
-    width: 46%;
-    padding: 0.5rem 0 1rem 0;
+    width: 200px;
+    padding: 0.3rem 0 1rem 0;
 }
 
 .img {
     text-align: center;
-    width: 180px;
+    width: 80%;
     border-radius: 3rem;
 }
 
 .recipesText {
-    text-align: center;
-    display: grid;
+    display: inline-block;
     border-radius: 3rem;
+    color: white;
+    background-color: thistle;
+    width: 50%;
 }
