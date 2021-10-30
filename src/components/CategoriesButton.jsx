@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getDrinksApi, getFoodApi } from '../services';
 import { filterDrink, filterFood } from '../redux/actions';
+import '../styles/App.css'
 
 class CategoriesButton extends Component {
   constructor() {
@@ -83,6 +84,7 @@ class CategoriesButton extends Component {
     return (
       <div>
         <button
+          className="button"
           name="all"
           data-testid="All-category-filter"
           type="button"
