@@ -83,6 +83,7 @@ class CategoriesButton extends Component {
     const { response } = this.state;
     return (
       <div>
+        <p className="cateBar">Categories</p>
         <button
           className="button"
           name="all"
@@ -93,7 +94,6 @@ class CategoriesButton extends Component {
           All
         </button>
         { response !== '' ? this.renderButton(response) : <span> Carregando </span> }
-        Categories
       </div>
     );
   }

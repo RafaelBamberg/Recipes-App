@@ -1,5 +1,5 @@
 .divRecipes {
-    background: var(--body-grap);
+    background-image: linear-gradient(#fffcff,#d5fefd);
     gap: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -25,7 +25,6 @@
 .recipesText {
     display: inline-block;
     border-radius: 3rem;
-    color: white;
-    background-color: thistle;
+    background-color: red;
     width: 50%;
 }
