@@ -39,6 +39,7 @@ export default class Header extends Component {
         <header className="header-home-page">
           <Link to="/perfil">
             <img
+              className="profile-icon"
               src={ profileIcon }
               alt="profileIcon"
               data-testid="profile-top-btn"
