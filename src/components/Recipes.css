@@ -1,5 +1,5 @@
 .divRecipes {
-    background-image: linear-gradient(#fffcff,#d5fefd);
+    background-image: linear-gradient(#ffffff,#d5fefd);
     gap: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -26,5 +26,10 @@
     display: inline-block;
     border-radius: 3rem;
     background-color: red;
+    color: white;
     width: 50%;
+}
+
+.del-foods {
+    text-align: center;
 }

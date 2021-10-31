@@ -8,7 +8,8 @@ import mealIcon from '../images/mealIcon.svg';
 export default class Footer extends Component {
   render() {
     return (
-      <footer cla data-testid="footer" className="footer-menu">
+      <div className="footer-menu">
+      <footer data-testid="footer">
         <Link
           to="/bebidas"
           data-testid="drinks-bottom-btn"
@@ -32,6 +33,7 @@ export default class Footer extends Component {
           <img src={ mealIcon } alt="Meal Icon" />
         </Link>
       </footer>
+      </div>
     );
   }
 }

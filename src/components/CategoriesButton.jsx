@@ -65,6 +65,7 @@ class CategoriesButton extends Component {
       if (index <= four) {
         return (
           <button
+          className="button"
             name={ Object.values(categ)[0] }
             type="button"
             data-testid={ `${Object.values(categ)[0]}-category-filter` }

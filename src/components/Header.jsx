@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import searchIcon from '../images/searchIcon.svg';
 import profileIcon from '../images/profileIcon.svg';
-import logo from '../images/2613298_company_entertainment_food_foursquare_nightlife_icon.png'
 import SearchBar from './SearchBar';
 import './Header.css';
 
@@ -31,11 +30,6 @@ export default class Header extends Component {
     const { showSearchBar } = this.state;
     return (
       <div>
-        <img
-        className="logo-img"
-        src={ logo }
-        alt=""
-        />
         <header className="header-home-page">
           <Link to="/perfil">
             <img

@@ -1,3 +1,7 @@
 .catebutton {
     align-items: center;
 }
+
+.header-catebutton {
+    background-color: white;
+}
