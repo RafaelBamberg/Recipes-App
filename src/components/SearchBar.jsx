@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import "../styles/App.css"
 
 export default class SearchBar extends Component {
   constructor(props) {
@@ -81,6 +82,7 @@ export default class SearchBar extends Component {
           Primeira letra
         </label>
         <button
+          className="button"
           type="button"
           data-testid="exec-search-btn"
           onClick={ this.setSearch }

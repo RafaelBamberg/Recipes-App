@@ -72,7 +72,7 @@ div {
 }
 
 .button:hover{
-  background-color: red;
+  background-image: linear-gradient(#f33c3c,#da1010);
 }
 
 .cateBar {
@@ -87,9 +87,9 @@ html{
 }
 
 body{
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background: var(--body-color);
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-2);
+  text-align: center;
 
 }
 
@@ -112,7 +112,7 @@ header {
 }
 
 footer{
-  background-color: #d3fffe;
+  background-color: #ffe1e1;
 }
 
 
