@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import HeaderExplore from '../components/HeaderExplore';
 import FavoriteCards from '../components/FavoriteCards';
+import '../styles/App.css';
 
 export default function ReceitasFeitas() {
   const [favorites, setFavorites] = useState([]);
@@ -50,6 +51,7 @@ export default function ReceitasFeitas() {
       Receitas Favoritas
       <div className="filter-section">
         <button
+          className="profile-something"
           data-testid="filter-by-all-btn"
           type="button"
           name="all"
@@ -58,6 +60,7 @@ export default function ReceitasFeitas() {
           All
         </button>
         <button
+          className="profile-something"
           data-testid="filter-by-food-btn"
           type="button"
           name="food"
@@ -66,6 +69,7 @@ export default function ReceitasFeitas() {
           Food
         </button>
         <button
+          className="profile-something"y
           data-testid="filter-by-drink-btn"
           type="button"
           name="drink"

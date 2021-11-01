@@ -44,6 +44,23 @@
   max-height: 80vh;
 }
 
+.header-explore-something {
+  cursor: pointer;
+  color: black;
+  border: 2px solid;
+  background-color: transparent;
+  border-radius: 1rem;
+
+  display: inline-block;
+  background-color: white;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+.header-explore-something:hover{
+  background-image: linear-gradient(#f33c3c,#d80404);
+}
+
 button,
 input{
   border: none;
@@ -65,7 +82,6 @@ div {
 }
 
 .button{
-  display: inline-block;
   background-color: white;
   font-weight: var(--font-medium);
   transition: .3s;
@@ -87,14 +103,30 @@ html{
 }
 
 body{
-  font-size: var(--h2-font-size);
+  font-size: 14px;
+  font-family: OCR A Std, monospace;
   margin-bottom: var(--mb-2);
-  text-align: center;
-
 }
 
 a {
   width: 200px;
+}
+
+.profile-something {
+  cursor: pointer;
+  color: black;
+  border: 2px solid;
+  background-color: transparent;
+  border-radius: 1rem;
+
+  display: inline-block;
+  background-color: white;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+.profile-something:hover {
+  background-image: linear-gradient(#f33c3c,#d80404);
 }
 
 .header-searchbar {
@@ -112,7 +144,8 @@ header {
 }
 
 footer{
-  background-color: #ffe1e1;
+  background-color:white;
+  padding-top: 20px;
 }
 
 

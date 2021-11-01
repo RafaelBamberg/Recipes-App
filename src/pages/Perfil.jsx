@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import HeaderExplore from '../components/HeaderExplore';
 import ButtonCard from '../components/ButtonCard';
+import '../styles/App.css'
 
 export default function Profile() {
   const getUser = localStorage.getItem('user');
