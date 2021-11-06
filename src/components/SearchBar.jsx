@@ -40,7 +40,7 @@ export default class SearchBar extends Component {
   render() {
     const { searchInput } = this.state;
     return (
-      <form>
+      <form className="form-center">
         <label htmlFor="search-input">
           <input
             type="text"

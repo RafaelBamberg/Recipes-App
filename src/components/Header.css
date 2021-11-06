@@ -3,6 +3,7 @@
   .header-home-page {
     background-image: linear-gradient(#d5fefd, #fffcff);
     width: 100%;
+    text-align: center;
   }
 }
 
