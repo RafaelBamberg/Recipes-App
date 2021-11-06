@@ -49,6 +49,7 @@ export function renderButton(recipe) {
     if (recInit === recStorage) {
       return (
         <button
+          className="button"
           type="button"
           data-testid="start-recipe-btn"
           className="button-iniciar"
@@ -61,6 +62,7 @@ export function renderButton(recipe) {
     }
     return (
       <button
+        className="button"
         type="button"
         data-testid="start-recipe-btn"
         className="button-iniciar"
@@ -73,6 +75,7 @@ export function renderButton(recipe) {
   }
   return (
     <button
+      className="button"
       type="button"
       data-testid="start-recipe-btn"
       className="button-iniciar"

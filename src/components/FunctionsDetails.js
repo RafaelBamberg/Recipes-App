@@ -1,5 +1,6 @@
 import React from 'react';
 import { renderData } from './RenderButtonDetails';
+import'../styles/App.css';
 
 export function renderRecomendation(recomendation, path) {
   const six = 6;
@@ -8,6 +9,7 @@ export function renderRecomendation(recomendation, path) {
       return (
         <div data-testid={ `${index}-recomendation-card` } className="recomendation">
           <img
+            className="button-favorite-image"
             src={ path.includes('/comidas') ? rec.strDrinkThumb
               : rec.strMealThumb }
             alt="alguma coisa"

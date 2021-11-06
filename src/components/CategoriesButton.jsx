@@ -83,7 +83,7 @@ class CategoriesButton extends Component {
   render() {
     const { response } = this.state;
     return (
-      <div>
+      <div className="button-bar">
         <p className="cateBar">Categories</p>
         <button
           className="button"

@@ -18,7 +18,9 @@ const drinkURL = 'https://www.thecocktaildb.com/api/json/v1/1/';
 export async function getFoodApi(type, food) {
   if (food === '') {
     const response = await fetch(`${foodURL}${type}`);
+    console.log(response)
     const data = await response.json();
+    console.log(data)
     return data;
   }
   const response = await fetch(`${foodURL}${type}${food}`);

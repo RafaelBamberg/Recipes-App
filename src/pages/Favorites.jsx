@@ -51,7 +51,7 @@ export default function ReceitasFeitas() {
       Receitas Favoritas
       <div className="filter-section">
         <button
-          className="profile-something"
+          className="button"
           data-testid="filter-by-all-btn"
           type="button"
           name="all"
@@ -60,7 +60,7 @@ export default function ReceitasFeitas() {
           All
         </button>
         <button
-          className="profile-something"
+          className="button"
           data-testid="filter-by-food-btn"
           type="button"
           name="food"
@@ -69,13 +69,13 @@ export default function ReceitasFeitas() {
           Food
         </button>
         <button
-          className="profile-something"y
+          className="button"y
           data-testid="filter-by-drink-btn"
           type="button"
           name="drink"
           onClick={ onFilterClick }
         >
-          Drinks
+          Drinksprofile-something
         </button>
       </div>
       <div className="favorite-section">

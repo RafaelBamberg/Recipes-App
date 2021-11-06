@@ -7,6 +7,7 @@ import shareIcon from '../images/shareIcon.svg';
 import whiteHeartIcon from '../images/whiteHeartIcon.svg';
 import blackHeartIcon from '../images/blackHeartIcon.svg';
 import { getDrinksApi, getFoodApi } from '../services';
+import'../styles/App.css';
 
 class ReceipeInProgress extends Component {
   constructor(props) {
@@ -114,6 +115,7 @@ class ReceipeInProgress extends Component {
     return (
       <div>
         <img
+          className="button-favorite-image"
           data-testid="recipe-photo"
           src={ recipe.strMealThumb ? recipe.strMealThumb : recipe.strDrinkThumb }
           alt={ recipe.strMeal ? recipe.strMeal : recipe.strDrink }
@@ -148,6 +150,7 @@ class ReceipeInProgress extends Component {
           } }
         >
           <img
+            className="button-favorite-image"
             src={ favorite ? blackHeartIcon : whiteHeartIcon }
             alt=""
             data-testid="favorite-btn"

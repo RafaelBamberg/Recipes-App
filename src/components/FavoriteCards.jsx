@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import shareIcon from '../images/shareIcon.svg';
 import blackHeartIcon from '../images/blackHeartIcon.svg';
 import Header from './Header';
+import '../styles/App.css'
 
 export default function FavoriteCards(props) {
   const { recipe, index, onFavoriteClick/* , handleRedirect */ } = props;
@@ -76,6 +77,7 @@ export default function FavoriteCards(props) {
             />
           </button>
           <button
+            className="button"
             type="button"
             className="card-btn"
             onClick={ () => onFavoriteClick(recipe.id) }

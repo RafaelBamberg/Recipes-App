@@ -43,7 +43,7 @@ export default class Header extends Component {
             { titlePage }
           </h2>
           <button
-          className="header-searchbar"
+            className="button"
             type="button"
             onClick={ this.handleSearchBar }
           >

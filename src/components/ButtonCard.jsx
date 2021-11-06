@@ -9,7 +9,7 @@ function ButtonCard({ buttonText, onClick, testId, page, disabled }) {
       to={ page }
     >
       <button
-        className="profile-something"
+        className="button"
         type="button"
         data-testid={ testId }
         onClick={ onClick }
